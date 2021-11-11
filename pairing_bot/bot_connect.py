@@ -49,12 +49,13 @@ async def on_message(message):
                     students.add(user.display_name)
             # for student in students:
             #     user = discord.client.get_user(student)
+            
 
     if message.channel.name == '🔨-lab-queue':
         if message.content == 'queue.open()':
-            await message.channel.set_permissions(message.guild.get_role(898284993778950175), send_messages=True)
+            await message.channel.set_permissions(discord.utils.get(message.guild.roles, name='students'), send_messages=True)
         elif message.content == 'queue.close()':
-            await message.channel.set_permissions(message.guild.get_role(898284993778950175), send_messages=False)
+            await message.channel.set_permissions(discord.utils.get(message.guild.roles, name='students'), send_messages=False)
         else:
             return
 
