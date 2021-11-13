@@ -59,7 +59,7 @@ async def on_message(message):
         }
     }
 
-    if message.channel.name == '🤝-lab-pairs':
+    if message.channel.name == '🤝-lab-pairs' or message.channel.name == '🍐lab-pairs':
         if message.content == 'get students':
             # confirm_first = 'React to this message if this is the 1st time pairs are being created for this cohort.'
             # await message.channel.send(confirm_first)
@@ -68,7 +68,7 @@ async def on_message(message):
             #     for member in discord.utils.get(message.guild.roles.members, name='students'):
             #         pair_dict[member.display_name] = 
             response = """:pear: :pear: :pear: Get Paired! :pear: :pear: :pear:
-                        students React to this message with an emoji if you will be in lab today!"""
+            students React to this message with an emoji if you will be in lab today!"""
             await message.channel.send(response)
         elif message.content == 'make pairs':
             messages = await message.channel.history(limit=2).flatten()
@@ -76,49 +76,70 @@ async def on_message(message):
             students = set()
             for reaction in student_reactions.reactions:
                 async for user in reaction.users():
-                    students.add(user.display_name)
+                    students.add(user)
             m_students = list(students)[:round(len(students)/2)]
             r_students = list(students)[round(len(students)/2):]
             for key in pairs['Malala'].keys():
                 if len(m_students) > 1:
-                    pairs['Malala'][key] = [m_students[-1], m_students[-2]]
+                    pairs['Malala'][key] = f'{m_students[-1].mention}, {m_students[-2].mention}'
                     m_students.pop()
                     m_students.pop()
                 elif len(m_students) == 1:
-                    pairs['Malala'][key] = m_students[-1]
+                    pairs['Malala'][key] = f'{m_students[-1].mention}'
                     m_students.pop()
                 else:
                     break
+            for key in pairs['Ruth'].keys():
+                if len(r_students) > 1:
+                    pairs['Ruth'][key] = f'{r_students[-1].mention}, {r_students[-2].mention}'
+                    r_students.pop()
+                    r_students.pop()
+                elif len(r_students) == 1:
+                    pairs['Ruth'][key] = f'{r_students[-1].mention}'
+                    r_students.pop()
+                else:
+                    break
+            await message.channel.send(
+                ":pear: :pear: :pear: Today's Pairs! :pear: :pear: :pear: \n"
+                f'Malala\n'
+                f"A: {pairs['Malala']['A']}\n"
+                f"B: {pairs['Malala']['B']}\n"
+                f"C: {pairs['Malala']['C']}\n"
+                f"D: {pairs['Malala']['D']}\n"
+                f"E: {pairs['Malala']['E']}\n"
+                f"F: {pairs['Malala']['F']}\n"
+                f"G: {pairs['Malala']['G']}\n"
+                f"H: {pairs['Malala']['H']}\n"
+                f'Ruth\n'
+                f"A: {pairs['Ruth']['A']}\n"
+                f"B: {pairs['Ruth']['B']}\n"
+                f"C: {pairs['Ruth']['C']}\n"
+                f"D: {pairs['Ruth']['D']}\n"
+                f"E: {pairs['Ruth']['E']}\n"
+                f"F: {pairs['Ruth']['F']}\n"
+                f"G: {pairs['Ruth']['G']}\n"
+                f"H: {pairs['Ruth']['H']}\n"
+            )
+                # A @pair[0][0] & @pair[0][1]
+                # B @pair[1][0] & @pair[1][1]
+                # C @pair[2][0] & @pair[2][1]
+                # D @pair[0][0] & @pair[0][1]
+                # E @pair[0][0] & @pair[0][1]
+                # F @pair[0][0] & @pair[0][1]
+                # G @pair[0][0] & @pair[0][1]
+                # H @pair[0][0] & @pair[0][1]
+                # Ruth
+                # A @student_1 & @student_2
+                # B @student_3 & @student_4
+                # C @student_5 & @student_6
+                # D @student_7 & @student_8
+                # E @student_9 & @student_10
+                # F @student_11 & @student_12
+                # G @student_13 & @student_14
+                # H @student_15 & @student_16"""
 
-                
 
-
-            # Ask if this is the 1st time making pairs for this cohort
-            # store info in a private message in the channel to read from and update accordingly
-            # put message ID in public response to use for lookup
-            
-            response = """:pear: :pear: :pear: Today's Pairs! :pear: :pear: :pear:
-            Malala
-            A @pair[0][0] & @pair[0][1]
-            B @pair[1][0] & @pair[1][1]
-            C @pair[2][0] & @pair[2][1]
-            D @pair[0][0] & @pair[0][1]
-            E @pair[0][0] & @pair[0][1]
-            F @pair[0][0] & @pair[0][1]
-            G @pair[0][0] & @pair[0][1]
-            H @pair[0][0] & @pair[0][1]
-            Ruth
-            A @student_1 & @student_2
-            B @student_3 & @student_4
-            C @student_5 & @student_6
-            D @student_7 & @student_8
-            E @student_9 & @student_10
-            F @student_11 & @student_12
-            G @student_13 & @student_14
-            H @student_15 & @student_16"""
-
-
-    if message.channel.name == '🔨-lab-queue':
+    if message.channel.name == '🔨-lab-queue' or message.channel.name == '🧭lab-queue':
         if message.content == 'queue.open()':
             await message.channel.set_permissions(discord.utils.get(message.guild.roles, name='students'), send_messages=True)
         elif message.content == 'queue.close()':
