@@ -6,7 +6,6 @@ from discord.ext import commands
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-GUILD = os.getenv('DISCORD_GUILD')
 
 # represents the connection to Discord
 intents = discord.Intents.default()
@@ -19,16 +18,7 @@ client = discord.Client(intents=intents)
 # print a statement confirming connection and client readiness
 @client.event
 async def on_ready():
-    # loop through guilds to connect to the correct one
-    for guild in client.guilds:
-        if guild.name == GUILD:
-            break
-
-    print(
-        f'{client.user} has connected to Discord!\n'
-        f'{client.user} is connected to the following guild:\n'
-        f'{guild.name}(id: {guild.id})'
-    )
+    print('Hackbright Bot has connected to Discord!')
 
 @client.event
 async def on_message(message):
