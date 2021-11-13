@@ -13,10 +13,10 @@
 <h1 id="hackbright-bot">Hackbright Bot</h1>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ul>
-<li>What the bot does</li>
-<li>How to add the bot to your server</li>
-<li>How to use the bot</li>
-<li>Things that will break the bot</li>
+<li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#what-the-bot-does">What the bot does</a></li>
+<li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#how-to-add-the-bot-to-your-server">How to add the bot to your server</a></li>
+<li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#how-to-use-the-bot">How to use the bot</a></li>
+<li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#how-to-use-the-bot">Things that will break the bot</a></li>
 </ul>
 <h2 id="what-the-bot-does">What the bot does</h2>
 <ol>
