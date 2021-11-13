@@ -1,0 +1,8 @@
+{
+    "name": "pairing-bot",
+    "version": "1.0.0",
+    "description": "Discord bot for lab pairs",
+    "main": "pairing_bot.py",
+    "author": "Kris Casey",
+    "dependencies": {}
+}
