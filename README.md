@@ -62,6 +62,11 @@ Start/connect the bot:</p>
 Hackbright Bot has connected to Discord!
 </code></pre>
 <h2 id="things-that-will-break-the-bot">Things that will break the bot</h2>
+<ul>
+<li>Renaming the lab queue channel</li>
+<li>Renaming the lab pair channel</li>
+</ul>
+<hr>
 <blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
 </blockquote>
