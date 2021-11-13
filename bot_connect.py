@@ -25,6 +25,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
+    student_role = discord.utils.get(message.guild.roles, name='students')
     pairs = {
         'Malala': {
             'A': '',
@@ -56,9 +57,10 @@ async def on_message(message):
             # if message.channel.last_message.reactions:
             #     for member in discord.utils.get(message.guild.roles.members, name='students'):
             #         pair_dict[member.display_name] = 
-            response = """:pear: :pear: :pear: Get Paired! :pear: :pear: :pear:
-            students React to this message with an emoji if you will be in lab today!"""
-            await message.channel.send(response)
+            await message.channel.send(
+                f':pear: :pear: :pear: Get Paired! :pear: :pear: :pear:\n'
+                f'{student_role.mention} React to this message with an emoji if you will be in lab today!'
+            )
         elif message.content == 'make pairs':
             messages = await message.channel.history(limit=2).flatten()
             student_reactions = messages[1]
@@ -113,9 +115,9 @@ async def on_message(message):
 
     if message.channel.name == '🔨-lab-queue' or message.channel.name == '🧭lab-queue':
         if message.content == 'queue.open()':
-            await message.channel.set_permissions(discord.utils.get(message.guild.roles, name='students'), send_messages=True)
+            await message.channel.set_permissions(student_role, send_messages=True)
         elif message.content == 'queue.close()':
-            await message.channel.set_permissions(discord.utils.get(message.guild.roles, name='students'), send_messages=False)
+            await message.channel.set_permissions(student_role, send_messages=False)
         else:
             return
 
