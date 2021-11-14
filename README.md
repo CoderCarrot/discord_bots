@@ -10,7 +10,7 @@
 <body class="stackedit">
   <div class="stackedit__html"><hr>
 <hr>
-<h1 id="hackbright-bot">Hackbright Bot</h1>
+<h1 id="hackbright-bot">Simple Hackbright Bot</h1>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ul>
 <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#what-the-bot-does">What the bot does</a></li>
