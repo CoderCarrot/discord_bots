@@ -58,7 +58,7 @@ Start/connect the bot:</p>
 <pre><code>$ python bot_connect.py
 </code></pre>
 <p>You should see the following in your console:</p>
-<pre><code>$ python bot_connect.py 
+<pre><code>$ python simple_bot.py 
 Hackbright Bot has connected to Discord!
 </code></pre>
 <h2 id="things-that-will-break-the-bot">Things that will break the bot</h2>
