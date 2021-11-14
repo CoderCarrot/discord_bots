@@ -71,17 +71,17 @@ Hackbright Bot has connected to Discord!
 <ul>
 <li>Only have 2 students
 <ul>
-<li>Workaround: Tell them to pair up.</li>
+<li><em><strong>Workaround:</strong></em> Tell them to pair up.</li>
 </ul>
 </li>
 <li>Having 6, 10, 14, 18, 22, 26, or 30 students
 <ul>
-<li>Workaround: Have the odd students in each lab pair up together.</li>
+<li><em><strong>Workaround:</strong></em> Have the odd students in each lab pair up together.</li>
 </ul>
 </li>
 <li>Having an odd number of students
 <ul>
-<li>Workaround: Have the odd student join a group of 2 or work on their own.</li>
+<li><em><strong>Workaround:</strong></em> Have the odd student join a group of 2 or work on their own.</li>
 </ul>
 </li>
 </ul>
