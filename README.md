@@ -55,7 +55,7 @@
 <p>Choose <code>Click to Reveal Token</code> and copy the token to replace above.<br>
 <img src="http://g.recordit.co/qsU1LQwDax.gif" alt="Get Discord Bot Tokent"><br>
 Start/connect the bot:</p>
-<pre><code>$ python bot_connect.py
+<pre><code>$ python simple_bot.py
 </code></pre>
 <p>You should see the following in your console:</p>
 <pre><code>$ python simple_bot.py 
