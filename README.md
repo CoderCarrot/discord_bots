@@ -62,9 +62,28 @@ Start/connect the bot:</p>
 Hackbright Bot has connected to Discord!
 </code></pre>
 <h2 id="things-that-will-break-the-bot">Things that will break the bot</h2>
+<h3 id="the-bot-wont-work">The bot won’t work:</h3>
 <ul>
 <li>Renaming the lab queue channel</li>
 <li>Renaming the lab pair channel</li>
+</ul>
+<h3 id="the-bot-will-produce-undesired-results">The bot will produce undesired results:</h3>
+<ul>
+<li>Only have 2 students
+<ul>
+<li>Workaround: Tell them to pair up.</li>
+</ul>
+</li>
+<li>Having 6, 10, 14, 18, 22, 26, or 30 students
+<ul>
+<li>Workaround: Have the odd students in each lab pair up together.</li>
+</ul>
+</li>
+<li>Having an odd number of students
+<ul>
+<li>Have the odd student join a group of 2 or work on their own.</li>
+</ul>
+</li>
 </ul>
 <hr>
 <blockquote>
