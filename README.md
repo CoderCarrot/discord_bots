@@ -10,7 +10,7 @@
 <body class="stackedit">
   <div class="stackedit__html"><hr>
 <hr>
-<h1 id="hackbright-bot">Hackbright Bot</h1>
+<h1 id="hackbright-bot">Simple Hackbright Bot</h1>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ul>
 <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#what-the-bot-does">What the bot does</a></li>
@@ -55,16 +55,35 @@
 <p>Choose <code>Click to Reveal Token</code> and copy the token to replace above.<br>
 <img src="http://g.recordit.co/qsU1LQwDax.gif" alt="Get Discord Bot Tokent"><br>
 Start/connect the bot:</p>
-<pre><code>$ python bot_connect.py
+<pre><code>$ python simple_bot.py
 </code></pre>
 <p>You should see the following in your console:</p>
-<pre><code>$ python bot_connect.py 
+<pre><code>$ python simple_bot.py 
 Hackbright Bot has connected to Discord!
 </code></pre>
 <h2 id="things-that-will-break-the-bot">Things that will break the bot</h2>
+<h3 id="the-bot-wont-work">The bot won’t work:</h3>
 <ul>
 <li>Renaming the lab queue channel</li>
 <li>Renaming the lab pair channel</li>
+</ul>
+<h3 id="the-bot-will-produce-undesired-results">The bot will produce undesired results:</h3>
+<ul>
+<li>Only have 2 students
+<ul>
+<li><em><strong>Workaround:</strong></em> Tell them to pair up.</li>
+</ul>
+</li>
+<li>Having 6, 10, 14, 18, 22, 26, or 30 students
+<ul>
+<li><em><strong>Workaround:</strong></em> Have the odd students in each lab pair up together.</li>
+</ul>
+</li>
+<li>Having an odd number of students
+<ul>
+<li><em><strong>Workaround:</strong></em> Have the odd student join a group of 2 or work on their own.</li>
+</ul>
+</li>
 </ul>
 <hr>
 <blockquote>
