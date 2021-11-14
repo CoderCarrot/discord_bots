@@ -81,7 +81,7 @@ Hackbright Bot has connected to Discord!
 </li>
 <li>Having an odd number of students
 <ul>
-<li>Have the odd student join a group of 2 or work on their own.</li>
+<li>Workaround: Have the odd student join a group of 2 or work on their own.</li>
 </ul>
 </li>
 </ul>
