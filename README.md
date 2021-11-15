@@ -7,10 +7,11 @@
   <link rel="stylesheet" href="https://stackedit.io/style.css" />
 </head>
 
+
 <body class="stackedit">
   <div class="stackedit__html"><hr>
 <hr>
-<h1 id="hackbright-bot">Simple Hackbright Bot</h1>
+<h1 id="simple-hackbright-bot">Simple Hackbright Bot</h1>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ul>
 <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#what-the-bot-does">What the bot does</a></li>
@@ -27,7 +28,7 @@
 </ol>
 <h2 id="how-to-add-the-bot-to-your-server">How to add the bot to your server</h2>
 <p>Follow the instruction in <a href="https://realpython.com/how-to-make-a-discord-bot-python/">this article</a>:</p>
-<ul>
+<ol>
 <li><a href="https://realpython.com/how-to-make-a-discord-bot-python/#how-to-make-a-discord-bot-in-the-developer-portal">How to Make a Discord Bot in the Developer Portal</a>
 <ul>
 <li><a href="https://realpython.com/how-to-make-a-discord-bot-python/#creating-an-application">Creating an Application</a></li>
@@ -35,8 +36,38 @@
 <li><a href="https://realpython.com/how-to-make-a-discord-bot-python/#adding-a-bot-to-a-guild">Adding a Bot to a Guild</a></li>
 </ul>
 </li>
+<li>When adding the bot to the Discord channel, make sure it has only the following permissions:
+<ul>
+<li><code>View Channels</code></li>
+<li><code>Send Messages</code></li>
+<li><code>Private Threads</code></li>
+<li><code>Send Messages in Threads</code></li>
+<li><code>Read Message History</code></li>
+<li><code>Mention Everyone</code></li>
+<li><code>Manage Messages</code></li>
+<li><code>Manage Threads</code></li>
 </ul>
+</li>
+<li>Make sure all Privileged Gateway Intents are selected<br>
+<img src="http://g.recordit.co/vcDhvAXQeV.gif" alt="Privileged Gateway Intents"></li>
+</ol>
 <h2 id="how-to-use-the-bot">How to use the bot</h2>
+<h3 id="online">Online:</h3>
+<ol>
+<li>Create a <a href="http://repl.it">repl.it</a>.</li>
+<li>Copy and paste <a href="https://replit.com/join/qkjipoinvw-codercarrot">this code</a> into it.
+<ul>
+<li>Alternatively, you can just run the code without creating your own <a href="http://repl.it">repl.it</a>.</li>
+</ul>
+</li>
+<li>Add your bot token in the Secrets <code>(Environmental variables)</code> section with the key <code>DISCORD_TOKEN</code><br>
+<img src="http://g.recordit.co/idEYvKbnFj.gif" alt="Secrets"></li>
+<li>Run the code before using any of the commands in Discord.<br>
+You will see the following in the console when the bot is connected:<br>
+<img src="http://g.recordit.co/10V1AnPzLi.gif" alt="Connection Message"></li>
+</ol>
+<p><strong>Note:</strong> <em>To have the bot running all of the time, you ill need a premium <a href="http://repl.it">repl.it</a> account.</em></p>
+<h3 id="locally">Locally:</h3>
 <p>Clone the repo:</p>
 <pre><code>$ git clone https://github.com/CoderCarrot/discord_bots.git
 </code></pre>
@@ -53,8 +84,8 @@
 <pre><code>DISCORD_TOKEN={bot_client_token}
 </code></pre>
 <p>Choose <code>Click to Reveal Token</code> and copy the token to replace above.<br>
-<img src="http://g.recordit.co/qsU1LQwDax.gif" alt="Get Discord Bot Tokent"><br>
-Start/connect the bot:</p>
+<img src="http://g.recordit.co/qsU1LQwDax.gif" alt="Get Discord Bot Tokent"></p>
+<p>Start/connect the bot:</p>
 <pre><code>$ python simple_bot.py
 </code></pre>
 <p>You should see the following in your console:</p>
