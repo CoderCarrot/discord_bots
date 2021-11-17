@@ -16,7 +16,12 @@
 <ul>
 <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#what-the-bot-does">What the bot does</a></li>
 <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#how-to-add-the-bot-to-your-server">How to add the bot to your server</a></li>
-<li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#how-to-use-the-bot">How to use the bot</a></li>
+<li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#how-to-use-the-bot">How to use the bot</a>
+<ul>
+<li><a href="https://github.com/CoderCarrot/discord_bots#online">Online</a></li>
+<li><a href="https://github.com/CoderCarrot/discord_bots#locally">Locally</a></li>
+</ul>
+</li>
 <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#how-to-use-the-bot">Things that will break the bot</a></li>
 </ul>
 <h2 id="what-the-bot-does">What the bot does</h2>
@@ -29,27 +34,33 @@
 <h2 id="how-to-add-the-bot-to-your-server">How to add the bot to your server</h2>
 <p>Follow the instruction in <a href="https://realpython.com/how-to-make-a-discord-bot-python/">this article</a>:</p>
 <ol>
-<li><a href="https://realpython.com/how-to-make-a-discord-bot-python/#how-to-make-a-discord-bot-in-the-developer-portal">How to Make a Discord Bot in the Developer Portal</a>
+<li>
+<p><a href="https://realpython.com/how-to-make-a-discord-bot-python/#how-to-make-a-discord-bot-in-the-developer-portal">How to Make a Discord Bot in the Developer Portal</a></p>
 <ul>
 <li><a href="https://realpython.com/how-to-make-a-discord-bot-python/#creating-an-application">Creating an Application</a></li>
 <li><a href="https://realpython.com/how-to-make-a-discord-bot-python/#creating-a-bot">Creating a Bot</a></li>
 <li><a href="https://realpython.com/how-to-make-a-discord-bot-python/#adding-a-bot-to-a-guild">Adding a Bot to a Guild</a></li>
 </ul>
 </li>
-<li>When adding the bot to the Discord channel, make sure it has only the following permissions:
+<li>
+<p>When adding the bot to the Discord channel, make sure it has only the following permissions:</p>
 <ul>
+<li><code>Manage Roles</code></li>
+<li><code>Manage Channels</code></li>
 <li><code>View Channels</code></li>
 <li><code>Send Messages</code></li>
 <li><code>Private Threads</code></li>
 <li><code>Send Messages in Threads</code></li>
-<li><code>Read Message History</code></li>
-<li><code>Mention Everyone</code></li>
 <li><code>Manage Messages</code></li>
 <li><code>Manage Threads</code></li>
+<li><code>Read Message History</code></li>
+<li><code>Mention Everyone</code></li>
 </ul>
 </li>
-<li>Make sure all Privileged Gateway Intents are selected<br>
-<img src="http://g.recordit.co/vcDhvAXQeV.gif" alt="Privileged Gateway Intents"></li>
+<li>
+<p>Make sure all Privileged Gateway Intents are selected<br>
+<img src="http://g.recordit.co/vcDhvAXQeV.gif" alt="Privileged Gateway Intents"></p>
+</li>
 </ol>
 <h2 id="how-to-use-the-bot">How to use the bot</h2>
 <h3 id="online">Online:</h3>
