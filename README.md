@@ -22,7 +22,13 @@
 <li><a href="https://github.com/CoderCarrot/discord_bots#locally">Locally</a></li>
 </ul>
 </li>
-<li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#how-to-use-the-bot">Things that will break the bot</a></li>
+<li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#how-to-use-the-bot">How to use the bot</a>
+<ul>
+<li><a href="https://github.com/CoderCarrot/discord_bots#pairing">Pairing</a></li>
+<li><a href="https://github.com/CoderCarrot/discord_bots#open-close-queue">Open/Close Queue</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#things-that-will-break-the-bot">Things that will break the bot</a></li>
 </ul>
 <h2 id="what-the-bot-does">What the bot does</h2>
 <ol>
@@ -103,6 +109,13 @@ You will see the following in the console when the bot is connected:<br>
 <pre><code>$ python random_bot.py 
 Hackbright Bot has connected to Discord!
 </code></pre>
+<h2 id="how-to-use-the-bot">How to use the bot</h2>
+<h3 id="pairing">Pairing:</h3>
+<p>In the <code>lab-pairs</code> channel, type in <code>get students</code> and have the students that will be in lab for the day react to the message.<br>
+<img src="http://g.recordit.co/Qy4IanDShm.gif" alt="Get Students"></p>
+<p>Once the students are done reacting, type in <code>make pairs</code> and make sure there are no messages between these steps.<br>
+<img src="http://g.recordit.co/lyx1XfisAw.gif" alt="Make Pairs"></p>
+<h3 id="open-close-queue">Open/Close Queue:</h3>
 <h2 id="things-that-will-break-the-bot">Things that will break the bot</h2>
 <h3 id="the-bot-wont-work">The bot won’t work:</h3>
 <ul>
