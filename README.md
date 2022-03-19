@@ -16,7 +16,7 @@
 <ul>
 <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#what-the-bot-does">What the bot does</a></li>
 <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#how-to-add-the-bot-to-your-server">How to add the bot to your server</a></li>
-<li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#how-to-use-the-bot">How to use the bot</a>
+<li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#how-to-start-the-bot">How to start the bot</a>
 <ul>
 <li><a href="https://github.com/CoderCarrot/discord_bots#online">Online</a></li>
 <li><a href="https://github.com/CoderCarrot/discord_bots#locally">Locally</a></li>
@@ -62,7 +62,7 @@
 <img src="http://g.recordit.co/vcDhvAXQeV.gif" alt="Privileged Gateway Intents"></p>
 </li>
 </ol>
-<h2 id="how-to-use-the-bot">How to use the bot</h2>
+<h2 id="how-to-start-the-bot">How to start the bot</h2>
 <h3 id="online">Online:</h3>
 <ol>
 <li>Create a <a href="http://repl.it">repl.it</a>.</li>
@@ -77,7 +77,7 @@
 You will see the following in the console when the bot is connected:<br>
 <img src="http://g.recordit.co/10V1AnPzLi.gif" alt="Connection Message"></li>
 </ol>
-<p><strong>Note:</strong> <em>To have the bot running all of the time, you ill need a premium <a href="http://repl.it">repl.it</a> account.</em></p>
+<p><strong>Note:</strong> <em>To have the bot running all of the time, you will need a premium <a href="http://repl.it">repl.it</a> account.</em></p>
 <h3 id="locally">Locally:</h3>
 <p>Clone the repo:</p>
 <pre><code>$ git clone https://github.com/CoderCarrot/discord_bots.git
@@ -97,10 +97,10 @@ You will see the following in the console when the bot is connected:<br>
 <p>Choose <code>Click to Reveal Token</code> and copy the token to replace above.<br>
 <img src="http://g.recordit.co/qsU1LQwDax.gif" alt="Get Discord Bot Tokent"></p>
 <p>Start/connect the bot:</p>
-<pre><code>$ python simple_bot.py
+<pre><code>$ python random_bot.py
 </code></pre>
 <p>You should see the following in your console:</p>
-<pre><code>$ python simple_bot.py 
+<pre><code>$ python random_bot.py 
 Hackbright Bot has connected to Discord!
 </code></pre>
 <h2 id="things-that-will-break-the-bot">Things that will break the bot</h2>
