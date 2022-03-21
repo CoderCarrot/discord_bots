@@ -24,8 +24,13 @@
   </li>
   <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#how-to-use-the-bot">How to use the bot</a>
     <ul>
-    <li><a href="https://github.com/CoderCarrot/discord_bots/hackbright_bot#pairing">Pairing</a></li>
-    <li><a href="https://github.com/CoderCarrot/discord_bots/hackbright_bot#open-close-queue">Open/Close Queue</a></li>
+      <li><a href="https://github.com/CoderCarrot/discord_bots/hackbright_bot#pairing">Pairing</a></li>
+      <li><a href="https://github.com/CoderCarrot/discord_bots/hackbright_bot#queue-management">Queue Management</a>
+        <ul>
+          <li><a href="https://github.com/CoderCarrot/discord_bots/hackbright_bot#open-queue">Open the queue</a></li>
+          <li><a href="https://github.com/CoderCarrot/discord_bots/hackbright_bot#close-queue">Close the queue</a></li>
+        </ul>
+      </li>
     </ul>
   </li>
   <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#things-that-will-break-the-bot">Things that will break the bot</a></li>
@@ -115,10 +120,12 @@ Hackbright Bot has connected to Discord!
 <img src="http://g.recordit.co/Qy4IanDShm.gif" alt="Get Students"></p>
 <p>Once the students are done reacting, type in <code>make pairs</code> and make sure there are no messages between these steps.<br>
 <img src="http://g.recordit.co/lyx1XfisAw.gif" alt="Make Pairs"></p>
-<h3 id="open-close-queue">Open/Close Queue:</h3>
+<h3 id="queue-management">Queue Management:</h3>
+<h4 id="open-queue">Open the queue</h4>
 <p>In the <code>lab-queue</code> channel, type in <code>queue.open()</code>.</p>
 <p>This will change the permissions on the channel so that anyone with a <code>student</code> role will explicitly be able to post in the channel.<br>
 <img src="http://g.recordit.co/Op1I5bj5Ut.gif" alt="Allow Student Posting"></p>
+<h4 id="close-queue">Close the queue</h4>
 <p>In the <code>lab-queue</code> channel, type in <code>queue.close()</code>.</p>
 <p>This will change the permissions on the channel so that anyone with a <code>student</code> role will <strong>not</strong> be able to post in the channel.<br>
 <img src="http://g.recordit.co/ifvSRkkWhX.gif" alt="Disable Student Posting"></p>
