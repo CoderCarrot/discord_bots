@@ -15,7 +15,7 @@
 <h2 id="table-of-contents">Table of Contents</h2>
 <ul>
   <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#what-the-bot-does">What the bot does</a></li>
-  <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master#how-to-add-the-bot-to-your-server">How to add the bot to your server</a></li>
+  <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#how-to-add-the-bot-to-your-server">How to add the bot to your server</a></li>
   <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#how-to-start-the-bot">How to start the bot</a>
     <ul>
       <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#online">Online</a></li>
@@ -24,11 +24,11 @@
   </li>
   <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#how-to-use-the-bot">How to use the bot</a>
     <ul>
-      <li><a href="https://github.com/CoderCarrot/discord_bots/hackbright_bot#pairing">Pairing</a></li>
-      <li><a href="https://github.com/CoderCarrot/discord_bots/hackbright_bot#queue-management">Queue Management</a>
+      <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#pairing">Pairing</a></li>
+      <li><a href="https://github.com/CoderCarrot/discord_botstree/master//hackbright_bot#queue-management">Queue Management</a>
         <ul>
-          <li><a href="https://github.com/CoderCarrot/discord_bots/hackbright_bot#open-queue">Open the queue</a></li>
-          <li><a href="https://github.com/CoderCarrot/discord_bots/hackbright_bot#close-queue">Close the queue</a></li>
+          <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#open-queue">Open the queue</a></li>
+          <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#close-queue">Close the queue</a></li>
         </ul>
       </li>
     </ul>
