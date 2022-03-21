@@ -24,8 +24,8 @@
   </li>
   <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#how-to-use-the-bot">How to use the bot</a>
     <ul>
-    <li><a href="https://github.com/CoderCarrot/discord_bots/hackbright_bot#pairing">Pairing</a></li>
-    <li><a href="https://github.com/CoderCarrot/discord_bots/hackbright_bot#open-close-queue">Open/Close Queue</a></li>
+    <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#pairing">Pairing</a></li>
+    <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#open-close-queue">Open/Close Queue</a></li>
     </ul>
   </li>
   <li><a href="https://github.com/CoderCarrot/discord_bots/tree/master/hackbright_bot#things-that-will-break-the-bot">Things that will break the bot</a></li>
